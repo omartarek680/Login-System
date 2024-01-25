@@ -1,0 +1,79 @@
+:root {
+    --main-color: #17a2b8
+}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+   
+}
+body {
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+::placeholder {
+    color: gray !important;
+    opacity: 1;
+}
+.box h1 {
+    color: var(--main-color);
+    font-size: 50px;
+
+}
+.form-control {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#signup-success {
+     color: #28a745;
+     
+}
+#LogOut {
+    background-color: transparent;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#LogOut:hover{
+    background-color: #FFC107;
+    
+}
+
+#LogOut a {
+    color: grey;
+    text-decoration: none;
+}
+#LogOut a:hover {
+    color: #fff;
+}
+#home {
+    min-height: calc(100vh - 41.33px);
+}
+#home div h1{
+color: var(--main-color);
+}
+#home div {
+    height: 200px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
